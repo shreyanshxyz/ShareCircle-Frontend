@@ -23,7 +23,7 @@ const UserWidget = ({ userId, picturePath }) => {
 
   const getUser = async () => {
     const response = await fetch(
-      `https://sharecircle-backend-production.up.railway.app/users/${userId}`,
+      `https://sharecircle-backend151571.onrender.com/users/${userId}`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },

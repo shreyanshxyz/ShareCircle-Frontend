@@ -47,7 +47,7 @@ const MyPostWidget = ({ picturePath }) => {
     }
 
     const response = await fetch(
-      `https://sharecircle-backend-production.up.railway.app/posts`,
+      `https://sharecircle-backend151571.onrender.com/posts`,
       {
         method: "POST",
         headers: { Authorization: `Bearer ${token}` },

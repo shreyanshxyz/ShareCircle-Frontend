@@ -64,7 +64,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
-      "https://sharecircle-backend-production.up.railway.app/auth/register",
+      "https://sharecircle-backend151571.onrender.com/auth/register",
       {
         method: "POST",
         body: formData,
@@ -80,7 +80,7 @@ const Form = () => {
 
   const login = async (values, onSubmitProps) => {
     const loggedInResponse = await fetch(
-      "https://sharecircle-backend-production.up.railway.app/auth/login",
+      "https://sharecircle-backend151571.onrender.com/auth/login",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },

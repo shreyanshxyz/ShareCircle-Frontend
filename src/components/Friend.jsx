@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `https://sharecircle-backend-production.up.railway.app/users/${_id}/${friendId}`,
+      `https://sharecircle-backend151571.onrender.com/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
